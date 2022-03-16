@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap');
+@font-face {
+    font-family: font_prof;
+    src: url('font/LibreBaskerville-Regular.ttf');
+}
+.font_prof{
+    font-family: font_prof;
+}
+/* ----- RESET -----*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000;
+}
+/* ----- BACKGROUND -----*/
+body{
+    background-color: #c5dbf2; 
+}
+/* ----- HEADER -----*/
+header {
+    width: 98.5vw;
+    height: 50px;
+
+    margin-top: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 18px;
+}
+/* ----- BUTTONS -----*/
+header button{
+    height: 50px;
+
+    padding: 10px;
+    margin-right: 5px;
+
+    font-size: 18px;
+    font-family: Poppins;
+}
+#conectar{
+    background-color: #c5dbf2;
+    border: solid;
+}
+#conectar:hover{
+    transition: 1s all;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
+#cadastro{
+    background-color: #007c89;
+    color: #fff;
+}
+#cadastro:hover{
+    transition: 1s all;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
+/* ----- HEADER-IMG -----*/
+header div{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+/* ----- NAV-BAR-LINKS -----*/
+nav a{
+    padding-left: 25px;
+
+    font-family: Poppins;
+}
+nav a:hover{
+    transition: 1s all;
+    color: #fff;
+
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+/* ----- MAIN -----*/
+main{
+    width: 80vw;
+    
+    display: flex;
+    gap: 50px;
+
+    margin: 200px auto;
+}
+/* ----- SECTION-TEXT -----*/
+#title{
+    font-family: font_prof;
+    font-size: 48px;
+    font-weight: bold;
+}
+#description{
+    margin-top: 15px;
+
+    font-family: poppins;
+    font-size: 24px;
+
+    color: rgba(0, 0, 0, 0.644);
+}
+/* ----- SECTION-BUTTON -----*/
+section button{
+    width: 20%;
+    height: 50px;
+
+    margin-top: 50px;
+
+    background-color: #007c89;
+    color: #fff;
+}
+section button:hover{
+    transition: 1s all;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
+/* ----- ASIDE ----- */
+aside{
+    width: 50%;
+
+    font-family: poppins;
+
+    background-color: #f7d5c5;
+    border: 3px solid #000;
+    border-radius: 15px;
+}
+/* ----- ASIDE-IMG ----- */
+aside #imagem{
+    display: flex;
+    justify-content: space-between;
+}
+aside .imagens{
+    width: 6%;
+    height: 10%;
+
+    display: flex;
+
+    padding: 5px;
+}
+/* ----- ASIDE-TITLE ----- */
+aside p{
+    font-size: 24px;
+
+    color: orangered;
+
+    text-align: center;
+}
+/* ----- ASIDE-IMG-PRINCIPAL ----- */
+aside img{
+    width: 50%;
+
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+/* ----- CART ----- */
+#cart{
+    width: 20%;
+    height: 280px;
+    
+    align-items: center;
+
+    margin-left: 25%;
+    bottom: 5%;
+    position: absolute;
+
+    background-color: #fff;
+
+    border: 3px solid;
+    border-radius: 15px;
+    box-shadow: 7px 7px 7px;
+}
+/* ----- CART-P ----- */
+#cart p{
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: 3px solid;
+
+    color: #000;
+    background-color: #bfc1c4;;
+}
+/* ----- CART-IMG ----- */
+#cart img{
+    width: 90%;
+
+    padding: 5%;
+}
+/* ----- CART-BUTTON ----- */
+#cart button{
+    width: 50%;
+    height: 30px;
+
+    border-radius: 5px;
+    background-color: #007c89;
+    color: #fff;
+
+    margin-left: 25%;
+}
